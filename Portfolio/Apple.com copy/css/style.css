@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+}
+
+.text-c {
+    text-transform: capitalize;
+}
+
+.text-u {
+    text-transform: uppercase;
+}
+
+header{
+    padding-top: 20px;
+    background: url("../img/bg-img.jpeg") center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    color: white;
+}
+
+.home-text{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.home-text span{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.home-text p{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.buy , .learn-more  {
+    color: #0d6efd;
+    font-size: 20px;
+    padding: 0 20px 0 0;
+}
+.buy  i, .learn-more  i{
+    font-size: 15px;
+    color: #0d6efd;
+}
+
+.iphone-14{
+    background: url("../img/hero_iphone14.jpeg") center;
+    height: 80vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.iphone-14 h2{
+    padding-top: 120px;
+    color: black;
+    font-size: 45px;
+}
+
+.iphone-14 p{
+    color: black;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.homepod{
+    background: url("../img/homepod.jpeg") center;
+    height: 80vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.homepod h2{
+    padding-top: 120px;
+    color: white;
+    font-size: 45px;
+}
+
+.homepod p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
